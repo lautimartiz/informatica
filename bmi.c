@@ -23,6 +23,8 @@ int main() {
     printf("| Obesidad      | >= 30.0     |\n");
     printf("-------------------------------\n");
 
+    int imc10 = (int)(imc * 10);
+
     categoria = (imc10 < 185) * 0 +
                 (imc10 >= 185 && imc10 <= 249) * 1 +
                 (imc10 >= 250 && imc10 <= 299) * 2 +
@@ -49,3 +51,4 @@ int main() {
 
     return 0;
 }
+
