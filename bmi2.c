@@ -48,7 +48,5 @@ int main() {
             printf("Error en la clasificación\n");
             break;
     }
-
     return 0;
 }
-
